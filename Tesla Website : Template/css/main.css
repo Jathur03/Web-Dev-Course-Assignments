@@ -46,15 +46,11 @@ body, html {
 }
 
 .container {
-  scroll-snap-type: y proximity;
-  overflow-y: scroll;
-  scroll-snap-type: both proximity;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(300px);
+  scroll-snap-type: y mandatory;
 }
 
 .container div {
   scroll-snap-align: start;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 4rem;
 }
