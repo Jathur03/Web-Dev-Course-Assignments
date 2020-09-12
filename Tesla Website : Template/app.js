@@ -15,10 +15,10 @@
 //   scrollFunction()
 // };
 
-function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    document.getElementsByClassName("text").style.opacity = "0";
-  } else {
-    document.getElementsByClassName("text").style.opacity = "100";
-  }
-}
+// function scrollFunction() {
+//   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+//     document.getElementsByClassName("text").style.opacity = "0";
+//   } else {
+//     document.getElementsByClassName("text").style.opacity = "100";
+//   }
+// }
