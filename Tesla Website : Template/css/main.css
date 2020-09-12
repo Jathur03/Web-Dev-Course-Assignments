@@ -44,3 +44,19 @@ body, html {
   font-size: 10px;
   color: #242424;
 }
+
+div {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+
+  border: 2px solid var(--gs0);
+  border-radius: 8px;
+  height: 33vh;
+  scroll-snap-align: start;
+
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
