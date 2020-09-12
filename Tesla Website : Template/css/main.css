@@ -45,16 +45,14 @@ body, html {
   color: #242424;
 }
 
-div {
-  scroll-snap-type: y mandatory;
+.container {
+  scroll-snap-type: y proximity;
   overflow-y: scroll;
+  scroll-snap-type: both proximity;
+}
 
-  border: 2px solid var(--gs0);
-  border-radius: 8px;
-  height: 33vh;
+.container div {
   scroll-snap-align: start;
-
-  height: 33vh;
   display: flex;
   justify-content: center;
   align-items: center;
