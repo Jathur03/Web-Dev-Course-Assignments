@@ -4,6 +4,12 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -45,12 +51,11 @@ body, html {
   color: #242424;
 }
 
-.container {
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(300px);
-  scroll-snap-type: y mandatory;
-}
-
-.container div {
+section {
+  border-bottom: 1px solid white;
+  padding: 1rem;
+  height: 100vh;
   scroll-snap-align: start;
+  text-align: center;
+  position: relative;
 }
