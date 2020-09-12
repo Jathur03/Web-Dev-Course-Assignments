@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: 'Lato';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -19,29 +19,12 @@ body, html {
 }
 
 /* Images used */
-.img1 {
-  background-image: url("https://cnet3.cbsistatic.com/img/ET87VfOXcXcr_vuftIZ4OV5VIhU=/1200x675/2019/03/25/db98d222-9db8-4c62-9090-3f85aee0ed57/telsa-model-y-ogi.jpg");
-
-}
-.img2 {
-  background-image: url("https://media.ed.edmunds-media.com/tesla/model-x/2019/oem/2019_tesla_model-x_4dr-suv_performance_fq_oem_7_1600.jpg");
-}
-
-.img3 {
-  background-image: url("https://media.ed.edmunds-media.com/tesla/model-3/2018/oem/2018_tesla_model-3_sedan_performance_fq_oem_4_1600.jpg");
-}
-
-.img4 {
-  background-image: url("https://cdn.wccftech.com/wp-content/uploads/2020/08/2020-Tesla-Model-S.jpg");
-}
-
-.img5 {
-  background-image: url("https://techcrunch.com/wp-content/uploads/2019/10/SR-Hero_2880x1800.jpg");
-}
-
-.img6 {
-  background-image: url("https://www.tesla.com/sites/default/files/images/energy/solarroof-smooth-glass.jpg?2019102525");
-}
+.img1 { background-image: url("https://cnet3.cbsistatic.com/img/ET87VfOXcXcr_vuftIZ4OV5VIhU=/1200x675/2019/03/25/db98d222-9db8-4c62-9090-3f85aee0ed57/telsa-model-y-ogi.jpg"); }
+.img2 { background-image: url("https://media.ed.edmunds-media.com/tesla/model-x/2019/oem/2019_tesla_model-x_4dr-suv_performance_fq_oem_7_1600.jpg"); }
+.img3 { background-image: url("https://media.ed.edmunds-media.com/tesla/model-3/2018/oem/2018_tesla_model-3_sedan_performance_fq_oem_4_1600.jpg"); }
+.img4 { background-image: url("https://cdn.wccftech.com/wp-content/uploads/2020/08/2020-Tesla-Model-S.jpg"); }
+.img5 { background-image: url("https://techcrunch.com/wp-content/uploads/2019/10/SR-Hero_2880x1800.jpg"); }
+.img6 { background-image: url("https://www.tesla.com/sites/default/files/images/energy/solarroof-smooth-glass.jpg?2019102525"); }
 
 .text {
   position: fixed;
@@ -60,8 +43,4 @@ body, html {
   transform: translate(-50%, -50%);
   font-size: 10px;
   color: #242424;
-}
-
-.container-1 {
-
 }
